@@ -1,0 +1,53 @@
+body{
+    background-image: url(/mount\ everest.jpg);
+    background-size: cover;
+}
+#boxes1{
+    height: 100px;
+    width: 200px;
+    background-color: green;
+    font-size: 30px;
+}
+#head{
+    width: 50%;
+    background-color: brown;
+}
+#boxes2{
+    height: 50px;
+    width: 30%;
+    margin-left: 20%;
+    background-color: yellow;
+    font-size: 1em;
+}
+#position{
+    background-color: aqua;
+}
+.box{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+}
+#box1{
+    background-image: url(/mount\ everest.jpg);
+    background-size: cover;
+    position: sticky;
+    top: 30px;
+    right: 10px;
+    z-index: 1;
+}
+#box2{
+    position: relative;
+    top: 10px;
+    /* z-index: 2; */
+}
+#box3{
+    position: absolute;
+    top: 10px;
+}
+#box4{
+    position: fixed;
+    top: 5px;
+    right: 10px;
+}

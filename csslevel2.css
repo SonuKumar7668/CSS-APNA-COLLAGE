@@ -1,0 +1,44 @@
+.div{
+    height: 99px;
+    width: 99px;
+    background-color: aqua;
+    border: 2px dashed red;
+    border-radius: 50%;
+    /* text-align: center; */
+    /* padding: 10px; */
+    padding-top: 20px;
+    margin: auto;
+}
+.diver{
+    display: inline;
+    background-color: red;
+}
+.head{
+    width: 400px;
+    background-color: pink;
+    border: 3px dotted red;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+}
+button{
+    display: block;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+#box1{
+    background-color: rgba(255, 0, 0, 0.863);
+}
+#box2{
+    background-color: green;
+    /* display: none; */
+    visibility: hidden;
+}
+#box3{
+    background-color: blue;
+}
